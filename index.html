@@ -267,7 +267,7 @@
 
   <h2>Yayyy, we're okay again!</h2>
   <p>Thank you for forgiving me, Poo. I love you more than words on a screen can say. 💜🌹</p>
-  <p style="font-size:.95rem; color:var(--text-muted); margin-top:-10px;" id="musicCaption">🎶 Our song is playing</p>
+  <p style="font-size:.95rem; color:var(--text-muted); margin-top:-10px;" id="musicCaption">For My Lovely Eida 🌀🌻</p>
 </div>
 
 <script>
@@ -370,7 +370,7 @@
     try{ playPromise = bgAudio.play(); }catch(err){ playPromise = null; }
     if(playPromise && typeof playPromise.then === 'function'){
       playPromise.then(()=>{
-        musicCaption.textContent = "🎶 Our song is playing";
+        musicCaption.textContent = "For My Lovely Eida 🌀🌻";
       }).catch(()=>{
         // song.mp3 missing or blocked
         musicCaption.textContent = "🎶 (tap the page to enable sound)";
